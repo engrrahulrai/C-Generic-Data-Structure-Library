@@ -30,18 +30,18 @@ struct __$__SLL_NODE *node;
 }singlyLinkedListIterator;
 
 ### Methods in it.
-singlyLinkedList *createSinglyLinkedList(int *success);
-void addToSinglyLinkedList(singlyLinkedList *sll,void *ptr,int *success);
-void insertAtSinglyLinkedList(singlyLinkedList *sll,void *ptr,int index,int *success);
-void *removeAtSinglyLinkedList(singlyLinkedList *sll,int index,int *success);
-void clearSinglyLinkedList(singlyLinkedList *sll);
-singlyLinkedList *getElementFromSinglyLinkedList(singlyLinkedList *sll,int index,int *success);
-void releaseSinglyLinkedList(singlyLinkedList *sll);
-singlyLinkedListIterator *getSinglyLinkedListIterator(singlyLinkedList *sll);
-int hasMoreElementInSinglyLinkedList(singlyLinkedListIterator *iterator);
-void *getNextElementFromSinglyLinkedList(singlyLinkedListIterator *iterator);
-void releaseSinglyLinkedListIterator(singlyLinkedListIterator *iterator);
-int getSizeOfSinglyLinkedList(singlyLinkedList *sll);
+* singlyLinkedList *createSinglyLinkedList(int *success);
+* void addToSinglyLinkedList(singlyLinkedList *sll,void *ptr,int *success);
+* void insertAtSinglyLinkedList(singlyLinkedList *sll,void *ptr,int index,int *success);
+* void *removeAtSinglyLinkedList(singlyLinkedList *sll,int index,int *success);
+* void clearSinglyLinkedList(singlyLinkedList *sll);
+* singlyLinkedList *getElementFromSinglyLinkedList(singlyLinkedList *sll,int index,int *success);
+* void releaseSinglyLinkedList(singlyLinkedList *sll);
+* singlyLinkedListIterator *getSinglyLinkedListIterator(singlyLinkedList *sll);
+* int hasMoreElementInSinglyLinkedList(singlyLinkedListIterator *iterator);
+* void *getNextElementFromSinglyLinkedList(singlyLinkedListIterator *iterator);
+* void releaseSinglyLinkedListIterator(singlyLinkedListIterator *iterator);
+* int getSizeOfSinglyLinkedList(singlyLinkedList *sll);
 
 
 # Doubly Linked List
@@ -66,18 +66,18 @@ struct __$__DLL_NODE *node;
 }doublyLinkedListIterator;
 
 ### Methods
-doublyLinkedList *createDoublyLinkedList(int *success);
-void addToDoublyLinkedList(doublyLinkedList *dll,void *ptr,int *success);
-void insertAtDoublyLinkedList(doublyLinkedList *dll,void *ptr,int index,int *success);
-void *removeAtDoublyLinkedList(doublyLinkedList *dll,int index,int *success);
-void clearDoublyLinkedList(doublyLinkedList *dll);
-doublyLinkedList *getElementFromDoublyLinkedList(doublyLinkedList *dll,int index,int *success);
-void releaseDoublyLinkedList(doublyLinkedList *dll);
-doublyLinkedListIterator *getDoublyLinkedListIterator(doublyLinkedList *dll);
-int hasMoreElementInDoublyLinkedList(doublyLinkedListIterator *iterator);
-void *getNextElementFromDoublyLinkedList(doublyLinkedListIterator *iterator);
-void releaseDoublyLinkedListIterator(doublyLinkedListIterator *iterator);
-int getSizeOfDoublyLinkedList(doublyLinkedList *dll);
+* doublyLinkedList *createDoublyLinkedList(int *success);
+* void addToDoublyLinkedList(doublyLinkedList *dll,void *ptr,int *success);
+* void insertAtDoublyLinkedList(doublyLinkedList *dll,void *ptr,int index,int *success);
+* void *removeAtDoublyLinkedList(doublyLinkedList *dll,int index,int *success);
+* void clearDoublyLinkedList(doublyLinkedList *dll);
+* doublyLinkedList *getElementFromDoublyLinkedList(doublyLinkedList *dll,int index,int *success);
+* void releaseDoublyLinkedList(doublyLinkedList *dll);
+* doublyLinkedListIterator *getDoublyLinkedListIterator(doublyLinkedList *dll);
+* int hasMoreElementInDoublyLinkedList(doublyLinkedListIterator *iterator);
+* void *getNextElementFromDoublyLinkedList(doublyLinkedListIterator *iterator);
+* void releaseDoublyLinkedListIterator(doublyLinkedListIterator *iterator);
+* int getSizeOfDoublyLinkedList(doublyLinkedList *dll);
 
 # Stack
 ### Declaration
@@ -87,15 +87,11 @@ singlyLinkedList *list;
 }stack;
 
 ### Methods
-stack *createStack(int *success);
-void pushToStack(stack *stack, void *ptr,int *success);
-void *popToStack(stack *stack, int *success);
-void clearStack(stack *stack);
-void releaseStack(stack *stack);
-int isStackIsEmpty(stack *stack,int *success);
-int getSizeOfStack(stack *stack);
-void *peekInStack(stack *stack,int *success);
-
-
-
-
+* stack *createStack(int *success);
+* void pushToStack(stack *stack, void *ptr,int *success);
+* void *popToStack(stack *stack, int *success);
+* void clearStack(stack *stack);
+* void releaseStack(stack *stack);
+* int isStackIsEmpty(stack *stack,int *success);
+* int getSizeOfStack(stack *stack);
+* void *peekInStack(stack *stack,int *success);
