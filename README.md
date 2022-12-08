@@ -9,6 +9,10 @@
 * I am in Test folder now wanted to compile the bst1.c file so, for that I will type this 
 * gcc -static bst1.c -I ..\include -L ..\lib -l rrdslib -o bst3.exe
 
+
+## Success
+* It defines the operation is done successfully or not.
+
 # Singly Linked List
 ### Declaration :
 struct __$__SLL_NODE 
